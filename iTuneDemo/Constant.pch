@@ -26,7 +26,6 @@
 
 #ifdef __OBJC__
     #import "UIFont+MyFont.h"
-    #import "UIColor+MyColor.h"
     #import "LoadingOverlayView.h"
     #import "UIImageView+Download.h"
     #import "Utilities.h"

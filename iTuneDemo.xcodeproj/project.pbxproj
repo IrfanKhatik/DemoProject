@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D61FB48A1C995A2900399AA6 /* ImageDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D61FB4891C995A2900399AA6 /* ImageDetailCell.m */; };
 		D61FB48D1C99627000399AA6 /* UIFont+MyFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D61FB48C1C99627000399AA6 /* UIFont+MyFont.m */; };
-		D61FB4901C9963EC00399AA6 /* UIColor+MyColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D61FB48F1C9963EC00399AA6 /* UIColor+MyColor.m */; };
 		D61FB4921C99841200399AA6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61FB4911C99841200399AA6 /* Social.framework */; };
 		D631A3AB1C980C67004E3C38 /* LoadingOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D631A3AA1C980C67004E3C38 /* LoadingOverlayView.m */; };
 		D631A3AE1C982976004E3C38 /* AppGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D631A3AD1C982976004E3C38 /* AppGridCell.m */; };
@@ -28,17 +27,13 @@
 		D66DE25C1C97214800B67A1D /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DE25B1C97214800B67A1D /* Utilities.m */; };
 		D66DE2601C972E1F00B67A1D /* AppCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DE25F1C972E1F00B67A1D /* AppCell.m */; };
 		D66DE2641C972ECA00B67A1D /* UIImageView+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DE2631C972ECA00B67A1D /* UIImageView+Download.m */; };
-		D6A8D0E41C9A698E0080879F /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = D61FB4861C994EA000399AA6 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D61FB4861C994EA000399AA6 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		D61FB4881C995A2900399AA6 /* ImageDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDetailCell.h; sourceTree = "<group>"; };
 		D61FB4891C995A2900399AA6 /* ImageDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDetailCell.m; sourceTree = "<group>"; };
 		D61FB48B1C99627000399AA6 /* UIFont+MyFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+MyFont.h"; sourceTree = "<group>"; };
 		D61FB48C1C99627000399AA6 /* UIFont+MyFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+MyFont.m"; sourceTree = "<group>"; };
-		D61FB48E1C9963EC00399AA6 /* UIColor+MyColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MyColor.h"; sourceTree = "<group>"; };
-		D61FB48F1C9963EC00399AA6 /* UIColor+MyColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MyColor.m"; sourceTree = "<group>"; };
 		D61FB4911C99841200399AA6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		D631A3A91C980C67004E3C38 /* LoadingOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingOverlayView.h; sourceTree = "<group>"; };
 		D631A3AA1C980C67004E3C38 /* LoadingOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingOverlayView.m; sourceTree = "<group>"; };
@@ -85,14 +80,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D61FB4851C994E2F00399AA6 /* ReadMe */ = {
-			isa = PBXGroup;
-			children = (
-				D61FB4861C994EA000399AA6 /* Readme.md */,
-			);
-			name = ReadMe;
-			sourceTree = "<group>";
-		};
 		D631A3A81C980C37004E3C38 /* LoadingView */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,7 +119,6 @@
 			children = (
 				D66DE22A1C9712A800B67A1D /* AppDelegate.h */,
 				D66DE22B1C9712A800B67A1D /* AppDelegate.m */,
-				D61FB4851C994E2F00399AA6 /* ReadMe */,
 				D631A3AF1C984111004E3C38 /* Settings */,
 				D631A3A81C980C37004E3C38 /* LoadingView */,
 				D66DE2611C972E8A00B67A1D /* Categories */,
@@ -220,8 +206,6 @@
 				D66DE2631C972ECA00B67A1D /* UIImageView+Download.m */,
 				D61FB48B1C99627000399AA6 /* UIFont+MyFont.h */,
 				D61FB48C1C99627000399AA6 /* UIFont+MyFont.m */,
-				D61FB48E1C9963EC00399AA6 /* UIColor+MyColor.h */,
-				D61FB48F1C9963EC00399AA6 /* UIColor+MyColor.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -283,7 +267,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6A8D0E41C9A698E0080879F /* Readme.md in Resources */,
 				D631A3B31C984424004E3C38 /* Settings.bundle in Resources */,
 				D66DE23A1C9712A800B67A1D /* LaunchScreen.storyboard in Resources */,
 				D66DE2371C9712A800B67A1D /* Assets.xcassets in Resources */,
@@ -312,7 +295,6 @@
 				D66DE2291C9712A800B67A1D /* main.m in Sources */,
 				D61FB48A1C995A2900399AA6 /* ImageDetailCell.m in Sources */,
 				D66DE24F1C9714B500B67A1D /* ServiceManager.m in Sources */,
-				D61FB4901C9963EC00399AA6 /* UIColor+MyColor.m in Sources */,
 				D66DE2441C9713C000B67A1D /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
