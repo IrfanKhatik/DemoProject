@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="AppDetail" syncable="YES">
+        <attribute name="appartist" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appcategory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appimage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appreleasedate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apprights" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appsummary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appurl" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="BlockApp" syncable="YES">
+        <attribute name="appid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AppDetail" positionX="-63" positionY="-18" width="128" height="180"/>
+        <element name="BlockApp" positionX="124" positionY="72" width="128" height="58"/>
+    </elements>
+</model>
